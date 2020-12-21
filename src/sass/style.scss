@@ -1,0 +1,13 @@
+@import '../../node_modules/bulma/bulma.sass';
+
+$main-color: #d45e5e;
+
+.demo {
+    background-color: $main-color;
+}
+
+.navbar-end .navbar-item:hover {
+    background-color: $main-color;
+}
+
+.navbar-dropdown-item-hover-color { color: white}
