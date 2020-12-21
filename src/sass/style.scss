@@ -6,3 +6,37 @@ $main-color: #d45e5e;
     background-color: $main-color;
 }
 
+
+
+.primary { background-color: blue;}
+
+// contact section
+.address li {
+    margin: 0.55rem 0;
+    color: white
+}
+
+
+// footer
+footer { 
+    background-color: rgb(77, 77, 77); 
+    color: white;
+    
+    .footer__content { 
+        text-align:right; }
+    
+}
+
+@media only screen and (max-width: 670px) {
+    .contact {
+        text-align: center;
+
+        .contact__content {
+            padding: 0;
+        }
+    }
+    footer .footer__content { 
+        text-align: center; }
+
+  
+}

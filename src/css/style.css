@@ -7704,3 +7704,24 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .demo {
   background-color: #d45e5e; }
+
+.primary {
+  background-color: blue; }
+
+.address li {
+  margin: 0.55rem 0;
+  color: white; }
+
+footer {
+  background-color: #4d4d4d;
+  color: white; }
+  footer .footer__content {
+    text-align: right; }
+
+@media only screen and (max-width: 670px) {
+  .contact {
+    text-align: center; }
+    .contact .contact__content {
+      padding: 0; }
+  footer .footer__content {
+    text-align: center; } }
