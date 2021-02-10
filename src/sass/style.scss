@@ -6,9 +6,25 @@ $main-color: #d45e5e;
     background-color: $main-color;
 }
 
-
+.test { background-color: blue}
 
 .primary { background-color: blue;}
+
+// navbar
+
+
+.navbar-menu {
+    a { 
+        transition: .10s ease;
+    }
+}
+.navbar-menu div a:hover {
+    color: white !important;
+}
+.navbar-menu .navbar-item:hover { background-color: $main-color}
+
+/* This changes only the text */
+
 
 // contact section
 .address li {

@@ -7705,9 +7705,22 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .demo {
   background-color: #d45e5e; }
 
+.test {
+  background-color: blue; }
+
 .primary {
   background-color: blue; }
 
+.navbar-menu a {
+  transition: .10s ease; }
+
+.navbar-menu div a:hover {
+  color: white !important; }
+
+.navbar-menu .navbar-item:hover {
+  background-color: #d45e5e; }
+
+/* This changes only the text */
 .address li {
   margin: 0.55rem 0;
   color: white; }
