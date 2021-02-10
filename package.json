@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch ./src/sass -o ./src/css"
+    "scss": "node-sass --watch ./src/sass -o ./src/css",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
